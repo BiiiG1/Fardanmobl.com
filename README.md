@@ -1,6 +1,6 @@
 Fardan Mobl Toos Project
 ---------------------------
-People who work in this project:
+<b>People who work in this project:</b>
 
 Kamyab Hooshmand
 
@@ -8,9 +8,9 @@ Alireza Karimi
 
 Mojtaba Seyedi
 
-Team name: (<BIIIG/>)
+<b>Team name: BIIIG</b>
 
-Technologies:
+<b>Technologies:</b>
 
 1Styles
 
