@@ -1,16 +1,19 @@
-Fardan Mobl Toos Project
+##Fardan Mobl Toos Project
 ---------------------------
-<b>People who work in this project:</b>
+###People who work in this project:
 
-Kamyab Hooshmand
+* [Ali Mihandoost](https://github.com/alimd) Teacher / Project Manager
 
-Alireza Karimi
+* [Kamyab Hooshmand](https://github.com/Kamyab-H) Developer/Designer
 
-Mojtaba Seyedi
+* [Alireza Karimi](https://github.com/AlirezaKarimi) Developer/Designer
 
-<b>Team name: BIIIG</b>
+* [Mojtaba Seyedi](https://github.com/seyedi) Developer/Designer
 
-<b>Technologies:</b>
+
+###Team name: BIIIG
+
+###Technologies:
 
 1Styles
 
