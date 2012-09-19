@@ -1,0 +1,54 @@
+body {
+ 	background-color: #444;
+}
+
+div.container {
+	margin : 0 auto;
+	padding: 50px 10px;
+	overflow: hidden;
+	min-height : 500px;
+}
+
+.badboy {
+	width 	  	: 0 	!important;
+	height    	: 0 	!important;
+	min-width 	: 0 	!important;
+	min-height	: 0 	!important;
+	float 		: none 	!important;
+	clear 	  	: both 	!important;
+	border 		: none  !important;
+}
+
+div.gallery {
+	margin : auto auto;
+	position	: relative;
+	width   	: 10000px;
+	-webkit-transition: left 1s ease-out;
+}
+
+div.gallery > div {
+	float  : left;
+	box-shadow: 0px 0px 50px yellow;
+	border : 10px solid white;
+	width  : 200px;
+	height : 200px;
+	margin-left: 20px;
+	margin-top : 100px;
+	color : yellow;
+	text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-webkit-transition:width 1.2s, height 1.2s,margin-top 1.2s;
+}
+
+#first {
+	width  : 450px;	
+	height : 450px;
+	margin-top : 0;
+}
+
+div.gallery > div:first-child {
+	margin-left: 0;
+}
