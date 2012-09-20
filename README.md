@@ -2,7 +2,7 @@
 ---------------------------
 ###People who work in this project:
 
-* [Ali Mihandoost](https://github.com/alimd) Teacher
+* [Ali Mihandoost](https://github.com/alimd) Teacher & Technical Manager
 
 * [Kamyab Hooshmand](https://github.com/Kamyab-H) Developer/Designer
 
