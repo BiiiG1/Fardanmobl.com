@@ -4,9 +4,10 @@ body {
 
 div.container {
 	margin : 0 auto;
-	padding: 50px 10px;
+	/*padding: 50px 10px;*/
 	overflow: hidden;
 	min-height : 500px;
+	/*position: relative;*/
 }
 
 .badboy {
@@ -51,4 +52,44 @@ div.gallery > div {
 
 div.gallery > div:first-child {
 	margin-left: 0;
+}
+
+div.slidedmenu {
+	width: 228px;
+	height: 480px;
+	background-image:url('../images/nav.png');
+}
+
+nav.mainnav {
+		
+}
+
+nav.mainnav menu {
+	list-style-type: none;
+}
+
+nav.mainnav menu li {
+	height: 38px;
+	width: 150px;
+	margin: 0 auto;
+	border-bottom: 1px #242424 solid;
+	/*width: 200px;*/
+
+}
+
+nav.mainnav menu li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Times New Roman" Tahoma;
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	/*background-color: #000;*/
+}
+
+nav.mainnav menu li:hover a {
+	background-color: #333;
 }
