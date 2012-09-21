@@ -3,9 +3,11 @@ body {
 }
 
 div.container {
+	width: 100%;
 	margin : 0 auto;
 	/*padding: 50px 10px;*/
-	overflow: hidden;
+	
+	/*overflow: hidden;*/
 	min-height : 500px;
 	/*position: relative;*/
 }
@@ -20,14 +22,14 @@ div.container {
 	border 		: none  !important;
 }
 
-div.gallery {
+/*div.gallery {
 	margin : auto auto;
 	position	: relative;
 	width   	: 10000px;
 	-webkit-transition: left 1s ease-out;
-}
+}*/
 
-div.gallery > div {
+/*div.gallery > div {
 	float  : left;
 	box-shadow: 0px 0px 50px yellow;
 	border : 10px solid white;
@@ -43,53 +45,52 @@ div.gallery > div {
 	background-size: 100% 100%;
 	-webkit-transition:width 1.2s, height 1.2s,margin-top 1.2s;
 }
-
-#first {
+*/
+/*#first {
 	width  : 450px;	
 	height : 450px;
 	margin-top : 0;
-}
+}*/
 
-div.gallery > div:first-child {
+/*div.gallery > div:first-child {
 	margin-left: 0;
 }
-
-div.slidedmenu {
-	width: 228px;
-	height: 480px;
-	background-image:url('../images/nav.png');
+*/
+div.top {
+	height 			:70px;
+	background-image:url('../images/menu-back.png');
 }
 
 nav.mainnav {
-		
+	padding			: 0;
+	margin 			: 0;
+	display 		: block;
+	background-image:url('../images/menu-back.png');
 }
 
 nav.mainnav menu {
-	list-style-type: none;
+	list-style-type	: none;
+	width 			: 500px;
+	margin 			: 0 auto;
 }
 
 nav.mainnav menu li {
-	height: 38px;
-	width: 150px;
-	margin: 0 auto;
-	border-bottom: 1px #242424 solid;
-	/*width: 200px;*/
-
+	height 		: 70px;
+	float 		: left;
 }
 
 nav.mainnav menu li a {
-	text-decoration: none;
-	color: white;
-	text-transform: uppercase;
-	font-family: "Times New Roman" Tahoma;
-	font-weight: bold;
-	font-size: 18px;
-	display: block;
-	padding: 10px 20px;
-	text-align: center;
-	/*background-color: #000;*/
+	text-decoration : none;
+	color 			: white;
+	text-transform 	: uppercase;
+	font-family 	: Arial "Times New Roman" Tahoma;
+	font-weight 	: bold;
+	font-size 		: 14px;
+	display 		: block;
+	padding 		: 22px 30px;
+	text-align 		: center;
 }
 
 nav.mainnav menu li:hover a {
-	background-color: #333;
+	color 	:gray;
 }
